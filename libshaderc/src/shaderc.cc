@@ -27,7 +27,7 @@
 #include "libshaderc_util/spirv_tools_wrapper.h"
 #include "libshaderc_util/version_profile.h"
 #include "shaderc_private.h"
-#include "spirv/unified1/spirv.hpp"
+#include "spirv.hpp"
 
 #if (defined(_MSC_VER) && !defined(_CPPUNWIND)) || !defined(__EXCEPTIONS)
 #define TRY_IF_EXCEPTIONS_ENABLED
