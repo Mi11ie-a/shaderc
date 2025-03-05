@@ -22,7 +22,15 @@ project "ShaderC"
 
     defines
     {
+		"ENABLE_HLSL"
     }
+
+	links
+	{
+		"glslang",
+		"SPIRV-Tools",
+		"SPIRV-Cross"
+	}
 
     includedirs
     {
